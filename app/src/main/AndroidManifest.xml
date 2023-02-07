@@ -51,7 +51,8 @@
         <activity
             android:name=".gui.main.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.RUN" />
@@ -79,7 +80,8 @@
 
         <receiver
             android:name=".service.BootReceiver"
-            android:label="BootReceiver">
+            android:label="BootReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
