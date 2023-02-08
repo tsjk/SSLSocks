@@ -14,8 +14,8 @@ android {
         applicationId "link.infra.sslsocks"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 21
-        versionName "0.0.21-beta"
+        versionCode 22
+        versionName "0.0.22-beta"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         signingConfig signingConfigs.debug
